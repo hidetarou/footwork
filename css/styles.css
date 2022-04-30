@@ -1,0 +1,47 @@
+/* common */
+h1, p, body {
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+
+
+/* body */
+body {
+  background-color: skyblue;
+}
+
+h1 {
+  width: 300px;
+  font-size: 36px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+p {
+  width: 150px;
+  height: 150px;
+  font-size: 80px;
+  margin: 0 auto;
+  text-align: center;
+  color: red;
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  font-size: 26px;
+  border-radius: 8px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.setting {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  width: 250px;
+}

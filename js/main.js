@@ -44,11 +44,13 @@ function delite (){
  if(i > count){
    clearTimeout(intervalId);
    clearTimeout(IntervalId);
+   start.disabled = false;
   }
   
 }
 
 start.addEventListener('click', () =>{
+  start.disabled = true;
   music.play();
   i = 0;
   setTimeout(footwork,3000);
